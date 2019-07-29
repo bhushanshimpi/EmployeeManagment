@@ -1,0 +1,14 @@
+﻿@model DeleteViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+<h1>Delete</h1>
+
+<div class="alert alert-danger">
+    Are You Sure You Want To Ddelete 
+ </div>
+    <form method="post">
+        <button type="submit" class="alert alert-danger">Yes</button>
+        <a asp-controller="home" asp-action="index" class=" btn btn-default">Cancel</a>
+    </form>
